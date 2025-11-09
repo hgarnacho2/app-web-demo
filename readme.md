@@ -2,7 +2,7 @@
 
 Este repositorio contiene dos páginas HTML estáticas diseñadas para simular un flujo básico de autenticación y acceso a contenido restringido. 
 
-## 🔗 Acceso al Despliegue
+## 🔗 Acceso a la app web demo
 
 Las páginas están diseñadas para ser servidas como archivos estáticos través de GitHub Pages.
 
