@@ -8,9 +8,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Llamar al workflow del repositorio del fw basado en playwright y ejecutar los tests @regresion
-        uses: peter-evans/workflow-dispatch@v1 #Autor de la Action pública oficial que he usado para  este Workflow
+        uses: peter-evans/workflow-dispatch@v1.1.2
         with:
           token: ${{ secrets.PLAYWRIGHT_AUTO }}
           repository: hgarnacho2/playwright-bdd-ts-tfm
           workflow: ci.yml
           ref: main
+
+
+
+
+          
