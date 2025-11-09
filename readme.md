@@ -1,4 +1,4 @@
-# ⚽ TFM - Demo de Autenticación y Filtrado (Clubes de Fútbol)
+# ⚽ TFM Héctor Garnacho García - Demo de Autenticación y Filtrado (Clubes de Fútbol)
 
 Este repositorio contiene dos páginas HTML estáticas diseñadas para simular un flujo básico de autenticación y acceso a contenido restringido. 
 
