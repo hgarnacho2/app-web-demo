@@ -39,7 +39,7 @@ Utiliza las siguientes credenciales y requisitos para realizar un inicio de sesi
 
 ## 🛡️ `private.html`: Zona Privada y Datos
 
-Esta página simula una zona de contenido exclusivo, ofreciendo una tabla interactiva de datos.
+Esta página simula una zona de contenido privado, ofreciendo una tabla interactiva de datos.
 
 ### Acceso Restringido
 
