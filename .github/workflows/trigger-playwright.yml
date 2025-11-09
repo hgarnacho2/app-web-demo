@@ -8,12 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Llamar al workflow del repositorio del fw basado en playwright y ejecutar los tests @regresion
-        uses: peter-evans/workflow-dispatch@v1.1.2
-        with:
-          token: ${{ secrets.PLAYWRIGHT_AUTO }}
-          repository: hgarnacho2/playwright-bdd-ts-tfm
-          workflow: ci.yml
-          ref: main
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.PLAYWRIGHT_AUTO }}" \
+            https://api.github.com/repos/hgarnacho2/playwright-bdd-ts-tfm/actions/workflows/ci.yml/dispatches \
+            -d '{"ref":"main"}'
 
 
 
