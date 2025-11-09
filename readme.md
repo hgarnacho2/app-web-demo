@@ -11,7 +11,7 @@ Las páginas están diseñadas para ser servidas como archivos estáticos travé
 | **`login.html`** | `/login.html` | Página de inicio de sesión. |
 | **`private.html`** | `/private.html` | Zona privada con la lista de clubes (requiere autenticación). |
 
-> **Nota:** La URL base es la siguiente:
+> **Nota:** La URL base es la siguiente: 
 * https://hgarnacho2.github.io/app-web-demo/login.html
 
 ---
