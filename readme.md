@@ -63,4 +63,4 @@ Las siguientes propiedades se han incluido en el diseño de las páginas para fa
 * Los mensajes de error y éxito de la autenticación se muestran en el elemento con `id="errorMessage"`.
 * La tabla de resultados es fácilmente accesible mediante `id="clubsTable"`.
 
-El código de estas páginas es estable y es un objetivo predecible para ejercicios de automatización de pruebas.
+El código de estas páginas es estable y es un objetivo predecible para ejercicios de automatización de pruebas..
