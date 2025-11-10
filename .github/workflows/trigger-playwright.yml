@@ -1,4 +1,4 @@
-name: Trigger Playwright Tests on Merge
+name: trigger-tests
 on:
   push:
     branches: [ main ]  # se dispara al hacer merge a main
